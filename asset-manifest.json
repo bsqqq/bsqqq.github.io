@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bsqqq.github.io/static/css/main.a6f79a6d.chunk.css",
+    "main.js": "/bsqqq.github.io/static/js/main.97debe1a.chunk.js",
+    "main.js.map": "/bsqqq.github.io/static/js/main.97debe1a.chunk.js.map",
+    "runtime-main.js": "/bsqqq.github.io/static/js/runtime-main.af9f1673.js",
+    "runtime-main.js.map": "/bsqqq.github.io/static/js/runtime-main.af9f1673.js.map",
+    "static/js/2.8859b7be.chunk.js": "/bsqqq.github.io/static/js/2.8859b7be.chunk.js",
+    "static/js/2.8859b7be.chunk.js.map": "/bsqqq.github.io/static/js/2.8859b7be.chunk.js.map",
+    "index.html": "/bsqqq.github.io/index.html",
+    "static/css/main.a6f79a6d.chunk.css.map": "/bsqqq.github.io/static/css/main.a6f79a6d.chunk.css.map",
+    "static/js/2.8859b7be.chunk.js.LICENSE.txt": "/bsqqq.github.io/static/js/2.8859b7be.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af9f1673.js",
+    "static/js/2.8859b7be.chunk.js",
+    "static/css/main.a6f79a6d.chunk.css",
+    "static/js/main.97debe1a.chunk.js"
+  ]
+}
