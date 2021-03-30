@@ -1,0 +1,17 @@
+.tabelaDeTecnologias {
+    height: 500px;
+    column-count: 2;
+}
+
+.tabelaDeTecnologias li {
+    padding-top: 15px;
+    display: list-item;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.tabelaDeTecnologias img {
+    width: 6%;
+    padding-left: 10px;
+    display: inline-table;
+}

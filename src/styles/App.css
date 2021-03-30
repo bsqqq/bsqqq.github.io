@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-style: oblique;
+  font-weight: lighter;
+}
+
+.header {
+  background-color: #161d2b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.Tecnologias {
+  background-color: rgb(255, 255, 255);
+  min-height: 80vh;
+  font-size: x-large;
+  padding-right: 30%;
+  padding-left: 40px;
+  font-style: normal;
+  position: absolute;
+  padding-top: 25px;
+  text-align: left;
+}

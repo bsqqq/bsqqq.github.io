@@ -1,0 +1,38 @@
+li {
+    padding-top: 10px;
+    display: list-item;
+    list-style-type: disc;
+}
+
+img {
+    width: 6%;
+    padding-left: 10px;
+    display: flex;
+}
+
+#seconddiv0 {
+    max-height: 0%;
+    transition: 1.0s;
+    overflow: hidden;
+    display: block
+   }
+   
+#seconddiv0.divAberta {
+    max-height: fit-content;
+    transition: 1.0s;
+    background-color: rgb(190, 190, 190);
+    margin-right: 25px;
+   }
+
+#seconddiv0.divAberta > #texto0 {
+    display: block;
+}
+
+#texto0 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+    display: none;
+}
