@@ -6,7 +6,7 @@ import Tecnologias from './components/tecnologias'
 function App() {
   return (
     <div className="App">
-      <header className="header">
+      <header className="header" id="topo">
           <Apresentacao 
             titulo = "Portfólio de Vinicius Aragão" 
             className="Apresentacao"
@@ -16,7 +16,7 @@ function App() {
             className="Apresentacao"
           />
       </header>
-      <div className="Tecnologias">
+      <div className="Tecnologias" id="tecnologias">
         <Tecnologias />
       </div>
       <div className="">

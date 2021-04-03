@@ -22,7 +22,7 @@ class Javascript extends React.Component {
             <>
                 <label onClick={this.Clicada}>Javascript</label>
                     <a onClick={this.Clicada}>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="js logo" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" loading="lazy" alt="js logo" />
                     </a>
                     <div id="box0" >
                         <div id="seconddiv0" className={this.state.minhaClasse}>

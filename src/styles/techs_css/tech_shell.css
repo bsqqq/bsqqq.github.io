@@ -10,25 +10,25 @@ img {
     display: flex;
 }
 
-#seconddiv3 {
+#seconddiv5 {
     max-height: 0%;
     transition: 1.0s;
     overflow: hidden;
     display: block
    }
    
-#seconddiv3.divAberta {
+#seconddiv5.divAberta {
     max-height: fit-content;
     transition: 1.0s;
     background-color: rgb(190, 190, 190);
     margin-right: 25px;
    }
 
-#seconddiv3.divAberta > #texto3 {
+#seconddiv5.divAberta > #texto5 {
     display: block;
 }
 
-#texto3 {
+#texto5 {
     margin-top: 5px;
     margin-left: 5px;
     margin-bottom: 6px;

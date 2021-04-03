@@ -5,6 +5,7 @@ import Nodejs from './techs/nodejs'
 import Reactjs from './techs/reactjs'
 import Java from './techs/java'
 import Git from './techs/git'
+import Shell from './techs/shell'
 import '../styles/tecnologias.css'
 
    function Tecnologias() {
@@ -20,11 +21,11 @@ import '../styles/tecnologias.css'
                 <li> <Reactjs /> </li>
                 <li> <Java /> </li>
                 <li> <Git /> </li>
-                <li>Shell</li>
+                <li><Shell /></li>
                 <li>Python</li>
                 <li>Typescript</li>
                 <li>Kotlin</li>
-                <li>Arduino / ESP32</li>
+                <li>PHP</li>
             </ul>
         </div>
     </>

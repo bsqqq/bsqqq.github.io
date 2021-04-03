@@ -21,7 +21,7 @@ class ReactJs extends React.Component {
         return (
             <>
                 <label onClick={this.Clicada}>React.js</label>
-                <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt="react.js logo" onClick={this.Clicada} />
+                <img src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png" alt="react.js logo" loading="lazy" onClick={this.Clicada} />
                         <div id="box2" >
                             <div id="seconddiv2" className={this.state.minhaClasse}>
                                 <p id="texto2">

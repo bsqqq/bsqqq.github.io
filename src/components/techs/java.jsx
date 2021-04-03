@@ -21,7 +21,7 @@ class Java extends React.Component {
         return (
             <>
                 <label onClick={this.Clicada}>Java</label>
-                <img src="https://sdtimes.com/wp-content/uploads/2019/03/jW4dnFtA_400x400.jpg" alt="java logo" onClick={this.Clicada} />
+                <img src="https://sdtimes.com/wp-content/uploads/2019/03/jW4dnFtA_400x400.jpg" loading="lazy" alt="java logo" onClick={this.Clicada} />
                     <div id="box3" >
                         <div id="seconddiv3" className={this.state.minhaClasse}>
                             <p id="texto3">

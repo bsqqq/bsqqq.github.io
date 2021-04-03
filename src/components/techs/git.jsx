@@ -21,7 +21,7 @@ class Git extends React.Component {
         return(
             <>
             <label onClick={this.Clicada}>Git</label>
-            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git logo" onClick={this.Clicada} />
+            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git logo" loading="lazy" onClick={this.Clicada} />
                 <div id="box4" >
                     <div id="seconddiv4" className={this.state.minhaClasse}>
                         <p id="texto4">

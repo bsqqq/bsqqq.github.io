@@ -21,7 +21,7 @@ class NodeJs extends React.Component {
         return (
             <>
                 <label onClick={this.Clicada}>Node.js</label>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXnQDVwDj8wqp_mgvACXgDgmVwqd6rfQODQ&usqp=CAU" alt="node.js logo" onClick={this.Clicada} />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXnQDVwDj8wqp_mgvACXgDgmVwqd6rfQODQ&usqp=CAU" alt="node.js logo" loading="lazy" onClick={this.Clicada} />
                         <div id="box1" >
                             <div id="seconddiv1" className={this.state.minhaClasse}>
                                 <p id="texto1">
