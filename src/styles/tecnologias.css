@@ -1,6 +1,14 @@
+.teste {
+    overflow: auto;
+    display: block;
+}
+
 .tabelaDeTecnologias {
-    height: 300px;
+    height: 330px;
     column-count: 2;
+    width: 70%;
+    /* display: block;
+    overflow: auto; */
 }
 
 .tabelaDeTecnologias li {
@@ -11,7 +19,7 @@
 }
 
 .tabelaDeTecnologias img {
-    width: 5%;
+    width: 8%;
     padding-left: 10px;
     display: inline;
 }

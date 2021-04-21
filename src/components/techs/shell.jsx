@@ -25,7 +25,7 @@ class Shell extends React.Component {
                 <div id="box5" >
                     <div id="seconddiv5" className={this.state.minhaClasse}>
                         <p id="texto5">
-                            <code>Shell</code> ou <code>Bash</code> (Bourne-Again-Shell) é uma linguagem para a linha
+                            <code>Shell</code> ou <code>Bash</code> (Bourne-Again-Shell) é uma interface para a linha
                             de comando dos sistemas operacionais (PowerShell para windows, Bash para Linux/MacOS), não
                             se trata de uma linguagem de programação convencional, mas sim apenas comandos que o sistema 
                             interpreta tem para se utilizar sem necessariamente de uma interface gráfica, ou para executar 
