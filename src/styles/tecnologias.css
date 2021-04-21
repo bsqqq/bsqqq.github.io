@@ -1,14 +1,14 @@
 .teste {
-    overflow: auto;
+    /* overflow: auto; */
     display: block;
 }
 
 .tabelaDeTecnologias {
-    height: 330px;
+    overflow: auto;
+    display: block;
+    height: 400px;
     column-count: 2;
     width: 70%;
-    /* display: block;
-    overflow: auto; */
 }
 
 .tabelaDeTecnologias li {

@@ -9,6 +9,7 @@ import Shell from './techs/shell'
 import Python from './techs/python'
 import Typescript from './techs/typescript'
 import Kotlin from './techs/kotlin'
+import PHP from './techs/php'
 import '../styles/tecnologias.css'
 
    function Tecnologias() {
@@ -28,7 +29,8 @@ import '../styles/tecnologias.css'
                 <li><Python /></li>
                 <li><Typescript /></li>
                 <li><Kotlin /></li>
-                <li>PHP</li>
+                <li><PHP /></li>
+                <li>CSS3</li>
             </ul>
         </div>
     </>
