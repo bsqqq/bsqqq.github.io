@@ -1,10 +1,10 @@
 
 .tabelaDeTecnologias {
-    overflow: auto;
+    /* overflow: auto; */
     display: block;
-    height: 400px;
+    height: fit-content;
     column-count: 2;
-    width: 70%;
+    /* width: 70%; */
 }
 
 .tabelaDeTecnologias li {
