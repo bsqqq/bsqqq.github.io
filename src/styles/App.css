@@ -13,6 +13,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
 }
 
 .Tecnologias {
@@ -27,6 +28,18 @@
   overflow: auto;
   display: block;
 }
+@media (max-width: 500px) {
+  #tecnologias {
+    font-size: large;
+  }
+  .teste {
+    width: 100%;
+    margin-left: -20px;
+  }
+  .tabelaDeTecnologias {
+    column-count: 1;
+  }
+}
 
 .Bibliografia {
   background-color: #161d2b;
@@ -39,4 +52,13 @@
   box-sizing: border-box;
   overflow: auto;
   display: block;
+}
+
+#bottom-header {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-style: italic;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

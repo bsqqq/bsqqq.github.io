@@ -12,9 +12,10 @@ function App() {
           className="Apresentacao"
         />
         <Apresentacao
-          subtitulo="Estudante de Ciência da Computação, Front-end Dev Junior"
+          subtitulo="Estudante de Ciência da Computação, Fullstack Dev Junior"
           className="Apresentacao"
         />
+        <p id='bottom-header'>$ --version: 1.0</p>
       </header>
       <div className="Tecnologias" id="tecnologias">
         <Tecnologias />

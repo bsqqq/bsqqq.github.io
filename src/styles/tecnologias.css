@@ -7,6 +7,16 @@
     /* width: 70%; */
 }
 
+@media (max-width: 500px) {
+    .tabelaDeTecnologias {
+        column-count: 1;
+    }
+    .tabelaDeTecnologias img {
+        width: 10% !important;
+    }
+
+}
+
 .tabelaDeTecnologias li {
     padding-top: 15px;
     display: list-item;
