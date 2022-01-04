@@ -7,16 +7,6 @@
     /* width: 70%; */
 }
 
-@media (max-width: 500px) {
-    .tabelaDeTecnologias {
-        column-count: 1;
-    }
-    .tabelaDeTecnologias img {
-        width: 10% !important;
-    }
-
-}
-
 .tabelaDeTecnologias li {
     padding-top: 15px;
     display: list-item;
@@ -70,3 +60,18 @@ img {
     display: none;
 }
 
+@media (max-width: 500px) {
+    .tabelaDeTecnologias {
+        column-count: 1;
+    }
+    .tabelaDeTecnologias img {
+        width: 10% !important;
+    }
+
+    #seconddiv1.divAberta {
+        max-height: fit-content;
+        transition: 1.0s;
+        background-color: rgb(190, 190, 190);
+        margin-right: -50px;
+    }
+}

@@ -15,7 +15,7 @@ function App() {
           subtitulo="Estudante de Ciência da Computação, Fullstack Dev Junior"
           className="Apresentacao"
         />
-        <p id='bottom-header'>$ --version: 1.0</p>
+        <p id='bottom-header'>$ --version: 1.1</p>
       </header>
       <div className="Tecnologias" id="tecnologias">
         <Tecnologias />
