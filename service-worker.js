@@ -14,6 +14,7 @@ self.addEventListener('install', event => {
             // adiciona index.html e offline.html a cache
             return cache.addAll(urlsToCache)
         })
+        .catch(err => console.error(err))
     )
 })
 
