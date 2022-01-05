@@ -46,7 +46,7 @@ export default function Bibliografia() {
                     <a href="https://www.linkedin.com/in/vinicius-m-aragao" style={{display: 'flex'}} ><FaLinkedin style={{ fontSize: 50 }} /> <p style={{ marginTop: 10, marginLeft: 5, color: 'white' }}>LinkedIn</p></a>
                 </div>
                 <div style={{ display: 'flex', marginBottom: 10 }}>
-                    <a href="mailto:viniciusmouraaragao@hotmail.com" style={{display: 'flex'}} ><GrMailOption style={{ fontSize: 50 }} /><p style={{ marginTop: 10, marginLeft: 5, color: 'white' }}>E-mail</p></a>
+                    <a href="mailto:viniciusmouraaragao@hotmail.com" style={{display: 'flex'}} onClick={async () => await navigator.clipboard.writeText('viniciusmouraaragao@hotmail.com')}><GrMailOption style={{ fontSize: 50 }} /><p style={{ marginTop: 10, marginLeft: 5, color: 'white' }}>E-mail</p></a>
                 </div>
             </div>
         </>

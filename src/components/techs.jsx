@@ -1,4 +1,5 @@
 import React from 'react'
+
 export default function Techs(props) {
     var { nome, logo, texto } = props
     var [minhaClasse, setMinhaClasse] = React.useState("")
